@@ -105,18 +105,6 @@ python val.py --weights path_to_weights.pt --data custom_data.yaml --task test
 
 - This will output metrics like [precision, recall, mAP (mean Average Precision)] for object detection performance.
 
----
-
-## 🖼️ **Results**
-
-After detection, results will be saved in the specified `output/` directory and can be visualized using a tool like OpenCV or Matplotlib.
-
-Example detection result:
-
-| Image | Detected Objects |
-|-------|------------------|
-| ![sample_img](docs/sample_image.png) | ![detected_obj](docs/detection_output.png) |
-
 
 ---
 
@@ -131,7 +119,3 @@ Example detection result:
 Make sure to check these resources for better understanding and guidance.
 
 ---
-
-## 💡 **Contributing**
-
-Contributions are welcome! Feel free to submit a pull request or open an issue to discuss improvements or bugs.
